@@ -1,0 +1,131 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "custommainmenu:textures/gui/menu/logo_long.png",
+            "posX" : -250,
+            "posY" : 25,
+            "width" : 500,
+            "height" : 50,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "solo":
+        {
+            "text" : "Solo",
+            "posX" : -100,
+            "posY" : 48,
+            "width" : 200,
+            "height" : 20,
+			"alignement" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "serveur":
+        {
+            "text" : "Serveur",
+            "posX" : -100,
+            "posY" : 72,
+            "width" : 200,
+            "height" : 20,
+			"alignement" : "center",
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "minecraft211.omgserv.com:10003"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "Mods",
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 200,
+            "height" : 20,
+			"alignement" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+        
+		"discord":
+        {
+            "text" : "Discord",
+            "posX" : -100,
+            "posY" : 120,
+            "width" : 200,
+            "height" : 20,
+			"alignement" : "center",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://discord.gg/H5nUksQtK5"
+            }	
+		},
+		
+        "options":
+        {
+            "text" : "Options",
+            "posX" : -100,
+            "posY" : 156,
+            "width" : 98,
+            "height" : 20,
+			"alignement" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quitter":
+        {
+            "text" : "Quitter",
+            "posX" : 2,
+            "posY" : 156,
+            "width" : 98,
+            "height" : 20,
+			"alignement" : "center",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        
+        }
+    },
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        }
+    },
+    
+    "other":
+    {   
+        "panorama":
+        {
+            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
+            "animate" : true,
+            "animationSpeed" : 1,
+            "blur" : true,
+            "gradient" : true
+        }
+    }
+}

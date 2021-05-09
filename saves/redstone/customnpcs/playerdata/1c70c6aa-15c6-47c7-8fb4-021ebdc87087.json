@@ -1,0 +1,25 @@
+{
+    "ItemGiverChained": [
+    ],
+    "TransportData": [
+    ],
+    "FactionData": [
+    ],
+    "BankData": [
+    ],
+    "ItemGiversList": [
+    ],
+    "MailData": [
+    ],
+    "PlayerName": "XDemon",
+    "QuestData": {
+        "CompletedQuests": [
+        ],
+        "ActiveQuests": [
+        ]
+    },
+    "UUID": "1c70c6aa-15c6-47c7-8fb4-021ebdc87087",
+    "PlayerCompanionId": 0,
+    "DialogData": [
+    ]
+}

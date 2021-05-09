@@ -1,0 +1,107 @@
+[12:40:10] [main/INFO]: Setting user: XDemon
+[12:40:11] [Client thread/INFO]: LWJGL Version: 2.9.1
+[12:40:13] [Client thread/ERROR]: Couldn't initialize twitch stream
+[12:40:21] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Chisel, FMLFileResourcePack:Call to Battle Updater, FMLFileResourcePack:Custom Main Menu, FMLFileResourcePack:CustomNpcs, FMLFileResourcePack:Flan's Mod Ultimate, FMLFileResourcePack:FPS Reducer, FMLFileResourcePack:Immersive Engineering, FMLFileResourcePack:InviBlock, FMLFileResourcePack:Wolff's NPCs
+[12:40:32] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Chisel, FMLFileResourcePack:Call to Battle Updater, FMLFileResourcePack:Custom Main Menu, FMLFileResourcePack:CustomNpcs, FMLFileResourcePack:Flan's Mod Ultimate, FMLFileResourcePack:FPS Reducer, FMLFileResourcePack:Immersive Engineering, FMLFileResourcePack:InviBlock, FMLFileResourcePack:Wolff's NPCs, FMLFileResourcePack:Flan's Mod : Simple Parts-Content Pack-1.7.10-4.8.0, FMLFileResourcePack:Flan's Mod : Warfare44ContentPack- Version 3.1 - Scott.jar
+[12:40:34] [Sound Library Loader/INFO]: Sound engine started
+[12:40:36] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[12:40:36] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[12:40:37] [Client thread/INFO]: Created: 16x16 textures/revolvers-atlas
+[12:40:38] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Chisel, FMLFileResourcePack:Call to Battle Updater, FMLFileResourcePack:Custom Main Menu, FMLFileResourcePack:CustomNpcs, FMLFileResourcePack:Flan's Mod Ultimate, FMLFileResourcePack:FPS Reducer, FMLFileResourcePack:Immersive Engineering, FMLFileResourcePack:InviBlock, FMLFileResourcePack:Wolff's NPCs, FMLFileResourcePack:Flan's Mod : Simple Parts-Content Pack-1.7.10-4.8.0, FMLFileResourcePack:Flan's Mod : Warfare44ContentPack- Version 3.1 - Scott.jar
+[12:40:40] [Client thread/ERROR]: Using missing texture, unable to load immersiveengineering:textures/blocks/metal2_skycrateDispenser.png, java.io.FileNotFoundException
+[12:40:41] [Client thread/INFO]: textures/blocks: dropping miplevel from 4 to 3, because of minTexel: 8
+[12:40:41] [Client thread/INFO]: Created: 2048x1024 textures/blocks-atlas
+[12:40:41] [Client thread/ERROR]: Using missing texture, unable to load immersiveengineering:textures/revolvers/revolver_tesla.png, java.io.FileNotFoundException
+[12:40:41] [Client thread/ERROR]: Using missing texture, unable to load immersiveengineering:textures/revolvers/revolver_rose.png, java.io.FileNotFoundException
+[12:40:41] [Client thread/INFO]: Created: 1024x1024 textures/revolvers-atlas
+[12:40:41] [Client thread/ERROR]: Using missing texture, unable to load chisel:textures/items/smashingrock.png, java.io.FileNotFoundException
+[12:40:42] [Client thread/INFO]: Created: 1024x1024 textures/items-atlas
+[12:40:42] [Sound Library Loader/INFO]: Sound engine started
+[12:40:46] [Client thread/INFO]: Connecting to gmv6.inovaperf.fr, 25603
+[12:40:47] [Client thread/INFO]: [CHAT]  [+] XDemon
+[12:40:47] [Client thread/INFO]: [CHAT] =====================================================
+[12:40:47] [Client thread/INFO]: [CHAT] 
+[12:40:47] [Client thread/INFO]: [CHAT] Bienvenue [Soldat] XDemon sur World of Nations
+[12:40:47] [Client thread/INFO]: [CHAT] 
+[12:40:47] [Client thread/INFO]: [CHAT] Joueurs en ligne : 7
+[12:40:47] [Client thread/INFO]: [CHAT] 
+[12:40:47] [Client thread/INFO]: [CHAT] =====================================================
+[12:40:47] [Client thread/INFO]: [CHAT] A new §eOptiFine§f version is available: §eHD Ultra E7§f
+[12:40:48] [Thread-11/INFO]: [CHAT] §2CustomNpcs§f installed. For more info §9§nClick here
+[12:40:51] [Client thread/INFO]: [CHAT]  [+] Craftie_12
+[12:41:58] [Client thread/INFO]: [CHAT] **etatsunis ?Général? FRCARGO59 : Lucas27400
+[12:42:01] [Client thread/INFO]: [CHAT] **etatsunis ?Général? FRCARGO59 : y a un blem
+[12:42:11] [Client thread/INFO]: [CHAT] **etatsunis ?Général? FRCARGO59 : faut nous regive 3 truc
+[12:42:16] [Client thread/INFO]: [CHAT] **etatsunis ?Général? FRCARGO59 : on viens de trouver un bug
+[12:42:27] [Client thread/INFO]: [CHAT] Teleporting to your faction home in 10s unless you move.
+[12:42:33] [Client thread/INFO]: [CHAT] ========== Zones ==========                                                       Mine : x: -100 z: 3385                                                                        Pétrole : x: 80 z: -2300                                                                   ==========================
+[12:42:37] [Client thread/INFO]: [CHAT] Teleporting to your faction home.
+[12:42:40] [Client thread/INFO]: [CHAT]  [-] Mimito
+[12:42:42] [Client thread/INFO]: [CHAT] *lateamcentra [Soldat] XDemon : Lucas27400 a quoi sert les foreuses
+[12:43:08] [Client thread/INFO]: [CHAT] **congo [Soldat] Craftie_12 : pour automatise la recolte de minerai
+[12:43:13] [Client thread/INFO]: [CHAT] *lateamcentra [Soldat] XDemon : thx
+[12:43:23] [Client thread/INFO]: [CHAT] *lateamcentra [Soldat] XDemon : sa creuse u c'est plus un generateur?
+[12:43:35] [Client thread/INFO]: [CHAT]  [+] Mimito
+[12:43:47] [Client thread/INFO]: [CHAT] Home set to current location.
+[12:44:00] [Client thread/INFO]: [CHAT] Teleporting to your faction home in 10s unless you move.
+[12:44:10] [Client thread/INFO]: [CHAT] Teleporting to your faction home.
+[12:44:10] [Client thread/INFO]: [CHAT] **congo [Soldat] Craftie_12 : Sa creuse mais jsp si sa marche sur le serv car dans le wild il n'y a pas de
+[12:44:15] [Client thread/INFO]: [CHAT] **congo [Soldat] Craftie_12 : minerai moder
+[12:44:15] [Client thread/INFO]: [CHAT]  [-] Mimito
+[12:44:21] [Client thread/INFO]: [CHAT]  [+] Mimito
+[12:44:23] [Client thread/INFO]: [CHAT] **etatsunis ?Général? FRCARGO59 : les gars qui a un backpack ?
+[12:44:28] [Client thread/INFO]: [CHAT] [World of Nations] Attention les items au sol vont être supprimés dans 60 secondes !
+[12:45:12] [Client thread/INFO]: [CHAT] [Fondateur] Lucas27400 : Personne visiblement xD
+[12:45:13] [Client thread/INFO]: [CHAT] [World of Nations] Attention les items au sol vont être supprimés dans 15 secondes!
+[12:45:19] [Client thread/INFO]: [CHAT] **etatsunis ?Général? FRCARGO59 : Lucas27400 enfin
+[12:45:24] [Client thread/INFO]: [CHAT] *lateamcentra [Soldat] XDemon : pas encore
+[12:45:28] [Client thread/INFO]: [CHAT] [World of Nations] 15 entitées ont été supprimées !
+[12:45:30] [Client thread/INFO]: [CHAT] **etatsunis ?Général? FRCARGO59 : faut que tu nous regive trois truc
+[12:45:30] [Client thread/INFO]: [CHAT] *lateamcentra [Soldat] XDemon : stuve je t'en vend 1 x)
+[12:45:34] [Client thread/INFO]: [CHAT] **etatsunis ?Général? FRCARGO59 : y a un bug sac
+[12:45:42] [Client thread/INFO]: [CHAT] **etatsunis ?Général? FRCARGO59 : XDemon j'en est 1
+[12:45:44] [Client thread/INFO]: [CHAT] +URSS [Soldat] Mimito : c'est a dire
+[12:46:00] [Client thread/INFO]: Connecting to gmv6.inovaperf.fr, 25603
+[12:46:01] [Client thread/INFO]: [CHAT]  [+] XDemon
+[12:46:01] [Client thread/INFO]: [CHAT] =====================================================
+[12:46:01] [Client thread/INFO]: [CHAT] 
+[12:46:01] [Client thread/INFO]: [CHAT] Bienvenue [Soldat] XDemon sur World of Nations
+[12:46:01] [Client thread/INFO]: [CHAT] 
+[12:46:01] [Client thread/INFO]: [CHAT] Joueurs en ligne : 8
+[12:46:01] [Client thread/INFO]: [CHAT] 
+[12:46:01] [Client thread/INFO]: [CHAT] =====================================================
+[12:46:08] [Client thread/INFO]: [CHAT] **etatsunis ?Général? FRCARGO59 : bah si tu mets une drill dans ton sac
+[12:46:11] [Client thread/INFO]: [CHAT] +URSS [Soldat] Mimito : ah ok
+[12:46:15] [Client thread/INFO]: [CHAT] **etatsunis ?Général? FRCARGO59 : ca fait dispawn la tête
+[12:46:16] [Client thread/INFO]: [CHAT]  [-] Lucas27400
+[12:46:23] [Client thread/INFO]: [CHAT] **etatsunis ?Général? FRCARGO59 : donc faut nous redonner 3 têtes x)
+[12:46:25] [Client thread/INFO]: [CHAT] Craftie_12 was burned to death
+[12:46:29] [Client thread/INFO]: [CHAT] +URSS [Soldat] Mimito : donc a ne sutout pas mettre dedans quoi
+[12:46:34] [Client thread/INFO]: [CHAT]  [+] TheAdamant
+[12:46:36] [Client thread/INFO]: [CHAT] **etatsunis ?Général? FRCARGO59 : voila
+[12:46:50] [Client thread/INFO]: [CHAT] +URSS [Soldat] Mimito : faudrais faire des testes parce que c'est po tres pratique tout sa
+[12:47:09] [Client thread/INFO]: [CHAT] +URSS [Soldat] Mimito : et FRCARGO59 c juste la tete ou toutes les amelioration ?
+[12:47:14] [Client thread/INFO]: [CHAT] **etatsunis ?Général? FRCARGO59 : tout
+[12:47:16] [Client thread/INFO]: [CHAT] +URSS [Soldat] Mimito : ok
+[12:47:17] [Client thread/INFO]: [CHAT] **etatsunis ?Général? FRCARGO59 : je viens de le voir
+[12:47:20] [Client thread/INFO]: [CHAT] Unknown command. Type "/help" for help.
+[12:47:22] [Client thread/INFO]: [CHAT] Teleportation will commence in 5 seconds. Don't move.
+[12:47:27] [Client thread/INFO]: [CHAT] Teleportation commencing...
+[12:47:33] [Client thread/INFO]: [CHAT] Nos réseaux :                                                                                   Site : http://worldofnations.inovaperf.me/                                      Discord : https://discord.gg/D6sXC5QuCY
+[12:47:41] [Client thread/INFO]: [CHAT] +URSS [Soldat] Mimito : sa doit surement prendre en compte que la drill sans les truc en pluse donc tout les objet comme sa
+[12:47:46] [Client thread/INFO]: [CHAT] +URSS [Soldat] Mimito : sa feras la meme
+[12:47:50] [Client thread/INFO]: [CHAT] **etatsunis ?Général? FRCARGO59 : je pense aussi
+[12:47:51] [Client thread/INFO]: [CHAT] Teleporting to your faction home in 10s unless you move.
+[13:04:27] [Client thread/INFO]: Connecting to gmv6.inovaperf.fr, 25603
+[13:04:27] [Client thread/INFO]: [CHAT]  [+] XDemon
+[13:04:27] [Client thread/INFO]: [CHAT] =====================================================
+[13:04:27] [Client thread/INFO]: [CHAT] 
+[13:04:27] [Client thread/INFO]: [CHAT] Bienvenue [Soldat] XDemon sur World of Nations
+[13:04:27] [Client thread/INFO]: [CHAT] 
+[13:04:27] [Client thread/INFO]: [CHAT] Joueurs en ligne : 7
+[13:04:27] [Client thread/INFO]: [CHAT] 
+[13:04:27] [Client thread/INFO]: [CHAT] =====================================================
+[13:04:28] [Client thread/INFO]: [CHAT] [MRL] Spawn_Mine has been reset automatically!
+[13:04:33] [Client thread/INFO]: [CHAT] *lateamcentra [Soldat] XDemon : re
+[13:04:38] [Client thread/INFO]: [CHAT] Teleporting to your faction home in 10s unless you move.
+[13:04:48] [Client thread/INFO]: [CHAT] Teleporting to your faction home.

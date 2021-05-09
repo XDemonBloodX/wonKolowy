@@ -1,0 +1,697 @@
+[21:44:11] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:44:11] [main/INFO] [FML]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
+[21:44:11] [main/ERROR] [FML]: Unable to read the jar file Call to Battle 2.jar - ignoring
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_291]
+	at java.util.zip.ZipFile.<init>(Unknown Source) ~[?:1.8.0_291]
+	at java.util.zip.ZipFile.<init>(Unknown Source) ~[?:1.8.0_291]
+	at java.util.jar.JarFile.<init>(Unknown Source) ~[?:1.8.0_291]
+	at java.util.jar.JarFile.<init>(Unknown Source) ~[?:1.8.0_291]
+	at cpw.mods.fml.relauncher.CoreModManager.discoverCoreMods(CoreModManager.java:308) [forge-1.7.10-10.13.4.1614-1.7.10.jar:?]
+	at cpw.mods.fml.relauncher.CoreModManager.handleLaunch(CoreModManager.java:221) [forge-1.7.10-10.13.4.1614-1.7.10.jar:?]
+	at cpw.mods.fml.relauncher.FMLLaunchHandler.setupHome(FMLLaunchHandler.java:90) [forge-1.7.10-10.13.4.1614-1.7.10.jar:?]
+	at cpw.mods.fml.relauncher.FMLLaunchHandler.setupClient(FMLLaunchHandler.java:67) [forge-1.7.10-10.13.4.1614-1.7.10.jar:?]
+	at cpw.mods.fml.relauncher.FMLLaunchHandler.configureForClientLaunch(FMLLaunchHandler.java:34) [forge-1.7.10-10.13.4.1614-1.7.10.jar:?]
+	at cpw.mods.fml.common.launcher.FMLTweaker.injectIntoClassLoader(FMLTweaker.java:126) [forge-1.7.10-10.13.4.1614-1.7.10.jar:?]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:115) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+[21:44:11] [main/INFO] [STDERR]: [codechicken.core.launch.DepLoader$DepLoadInst:scanDepInfo:510]: Failed to load dependencies.info from Call to Battle 2.jar as JSON
+[21:44:11] [main/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at java.util.zip.ZipFile.open(Native Method)
+[21:44:11] [main/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at java.util.zip.ZipFile.<init>(Unknown Source)
+[21:44:11] [main/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at codechicken.core.launch.DepLoader$DepLoadInst.scanDepInfo(DepLoader.java:503)
+[21:44:11] [main/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at codechicken.core.launch.DepLoader.load(DepLoader.java:584)
+[21:44:11] [main/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[21:44:11] [main/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[21:44:11] [main/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at cpw.mods.fml.relauncher.CoreModManager.loadCoreMod(CoreModManager.java:501)
+[21:44:11] [main/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at cpw.mods.fml.relauncher.CoreModManager.handleLaunch(CoreModManager.java:221)
+[21:44:11] [main/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at cpw.mods.fml.relauncher.FMLLaunchHandler.configureForClientLaunch(FMLLaunchHandler.java:34)
+[21:44:11] [main/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:115)
+[21:44:11] [main/WARN] [FML]: The coremod codechicken.nei.asm.NEICorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:44:11] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:44:11] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[21:44:11] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineForgeTweaker
+[21:44:11] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
+[21:44:11] [main/INFO] [STDOUT]: [optifine.OptiFineClassTransformer:dbg:221]: OptiFine ClassTransformer
+[21:44:11] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:44:12] [main/INFO] [FML]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[21:44:12] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:44:12] [main/ERROR] [CodeChickenCore]: CodeChickenCore: Failed to read jar file: Call to Battle 2.jar
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_291]
+	at java.util.zip.ZipFile.<init>(Unknown Source) ~[?:1.8.0_291]
+	at java.util.zip.ZipFile.<init>(Unknown Source) ~[?:1.8.0_291]
+	at java.util.jar.JarFile.<init>(Unknown Source) ~[?:1.8.0_291]
+	at java.util.jar.JarFile.<init>(Unknown Source) ~[?:1.8.0_291]
+	at codechicken.core.launch.CodeChickenCorePlugin.scanMod(CodeChickenCorePlugin.java:148) [CodeChickenCore-1.7.10-1.0.7.47-universal.jar:?]
+	at codechicken.core.launch.CodeChickenCorePlugin.scanCodeChickenMods(CodeChickenCorePlugin.java:136) [CodeChickenCore-1.7.10-1.0.7.47-universal.jar:?]
+	at codechicken.core.launch.CodeChickenCorePlugin.call(CodeChickenCorePlugin.java:128) [CodeChickenCore-1.7.10-1.0.7.47-universal.jar:?]
+	at codechicken.core.launch.CodeChickenCorePlugin.call(CodeChickenCorePlugin.java:30) [CodeChickenCore-1.7.10-1.0.7.47-universal.jar:?]
+	at cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper.injectIntoClassLoader(CoreModManager.java:133) [forge-1.7.10-10.13.4.1614-1.7.10.jar:?]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:115) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+[21:44:12] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[21:44:12] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[21:44:12] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[21:44:14] [Client thread/INFO] [Config]: [OptiFine] (Reflector) Class not present: ModLoader
+[21:44:14] [Client thread/INFO] [Config]: [OptiFine] (Reflector) Class not present: BlockCoord
+[21:44:15] [Client thread/INFO] [Config]: [OptiFine] 
+[21:44:15] [Client thread/INFO] [Config]: [OptiFine] Build: 20171229-143158
+[21:44:15] [Client thread/INFO] [Config]: [OptiFine] Java: 1.8.0_291, Oracle Corporation
+[21:44:15] [Client thread/INFO] [Config]: [OptiFine] LWJGL: 2.9.1
+[21:44:15] [Client thread/INFO] [Config]: [OptiFine] OpenGL Version: 4.6.0
+[21:44:15] [Thread-7/INFO] [Config]: [OptiFine] Checking for new version
+[21:44:16] [Client thread/INFO] [shadersmod.common.SMCLog]: [Shaders] Vendor:  NVIDIA Corporation
+[21:44:16] [Client thread/INFO] [shadersmod.common.SMCLog]: [Shaders] Renderer: NVIDIA GeForce RTX 2070/PCIe/SSE2
+[21:44:16] [Client thread/INFO] [shadersmod.common.SMCLog]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[21:44:16] [Client thread/INFO] [shadersmod.common.SMCLog]: [Shaders] Save ShadersMod configuration.
+[21:44:16] [Client thread/INFO] [STDOUT]: [tv.twitch.StandardCoreAPI:<init>:16]: If on Windows, make sure to provide all of the necessary dll's as specified in the twitchsdk README. Also, make sure to set the PATH environment variable to point to the directory containing the dll's.
+[21:44:16] [Client thread/INFO] [FML]: Forge Mod Loader has detected optifine OptiFine_1.7.10_HD_U_E3, enabling compatibility features
+[21:44:16] [Client thread/INFO] [MinecraftForge]: Attempting early MinecraftForge initialization
+[21:44:16] [Client thread/INFO] [FML]: Replaced 183 ore recipies
+[21:44:16] [Client thread/INFO] [MinecraftForge]: Completed early MinecraftForge initialization
+[21:44:16] [Client thread/INFO] [FML]: Searching C:\Users\tangu\AppData\Roaming\.World of Nations\mods for mods
+[21:44:21] [Client thread/WARN] [FML]: Zip file Call to Battle 2.jar failed to read properly, it will be ignored
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_291]
+	at java.util.zip.ZipFile.<init>(Unknown Source) ~[?:1.8.0_291]
+	at java.util.zip.ZipFile.<init>(Unknown Source) ~[?:1.8.0_291]
+	at java.util.jar.JarFile.<init>(Unknown Source) ~[?:1.8.0_291]
+	at java.util.jar.JarFile.<init>(Unknown Source) ~[?:1.8.0_291]
+	at cpw.mods.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:41) [JarDiscoverer.class:?]
+	at cpw.mods.fml.common.discovery.ContainerType.findMods(ContainerType.java:42) [ContainerType.class:?]
+	at cpw.mods.fml.common.discovery.ModCandidate.explore(ModCandidate.java:71) [ModCandidate.class:?]
+	at cpw.mods.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:131) [ModDiscoverer.class:?]
+	at cpw.mods.fml.common.Loader.identifyMods(Loader.java:364) [Loader.class:?]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:489) [Loader.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:208) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:480) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:878) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_291]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_291]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_291]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_291]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+[21:44:21] [Client thread/WARN] [FpsReducer]: Mod FpsReducer is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version mc1.7.10-1.10.3
+[21:44:21] [Client thread/WARN] [FpsReducer]: Mod FpsReducer is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version mc1.7.10-1.10.3
+[21:44:21] [Client thread/INFO] [FML]: Found mod(s) [ImmersiveEngineering] containing declared API package cofh.api (owned by CoFHLib) without associated API reference
+[21:44:21] [Client thread/INFO] [FML]: FML has found a non-mod file CodeChickenLib-1.7.10-1.1.3.138-universal.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[21:44:21] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenCore, NotEnoughItems, chisel, ctbupdater, CustomMainMenu, customnpcs, eiramoticons, flansmod, FpsReducer, gvc, ImmersiveEngineering, InviBlock, wolffsmod] at CLIENT
+[21:44:22] [Client thread/INFO] [STDOUT]: [ctbupdater.CTBUpdater:preInit:145]: -
+[21:44:22] [Client thread/INFO] [STDOUT]: [ctbupdater.CTBUpdater:preInit:145]: -
+[21:44:22] [Client thread/INFO] [STDOUT]: [ctbupdater.CTBUpdater:preInit:145]: -
+[21:44:22] [Client thread/INFO] [STDOUT]: [ctbupdater.CTBUpdater:preInit:145]: -
+[21:44:22] [Client thread/INFO] [STDOUT]: [ctbupdater.CTBUpdater:preInit:145]: -
+[21:44:22] [Client thread/INFO] [STDOUT]: [ctbupdater.CTBUpdater:preInit:147]: Could not check for updates for Call to Battle.
+[21:44:22] [Client thread/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at java.util.zip.ZipFile.open(Native Method)
+[21:44:22] [Client thread/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at java.util.zip.ZipFile.<init>(Unknown Source)
+[21:44:22] [Client thread/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at ctbupdater.CTBUpdater.preInit(CTBUpdater.java:56)
+[21:44:22] [Client thread/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[21:44:22] [Client thread/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[21:44:22] [Client thread/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[21:44:22] [Client thread/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[21:44:22] [Client thread/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+[21:44:22] [Client thread/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+[21:44:22] [Client thread/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+[21:44:22] [Client thread/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+[21:44:22] [Client thread/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[21:44:22] [Client thread/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+[21:44:22] [Client thread/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+[21:44:22] [Client thread/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+[21:44:22] [Client thread/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at cpw.mods.fml.common.Loader.loadMods(Loader.java:513)
+[21:44:22] [Client thread/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:480)
+[21:44:22] [Client thread/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:878)
+[21:44:22] [Client thread/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[21:44:22] [Client thread/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[21:44:22] [Client thread/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[21:44:22] [Client thread/INFO] [STDOUT]: [ctbupdater.CTBUpdater:preInit:152]: -
+[21:44:22] [Client thread/INFO] [STDOUT]: [ctbupdater.CTBUpdater:preInit:152]: -
+[21:44:22] [Client thread/INFO] [STDOUT]: [ctbupdater.CTBUpdater:preInit:152]: -
+[21:44:22] [Client thread/INFO] [STDOUT]: [ctbupdater.CTBUpdater:preInit:152]: -
+[21:44:22] [Client thread/INFO] [STDOUT]: [ctbupdater.CTBUpdater:preInit:152]: -
+[21:44:22] [Client thread/INFO] [STDOUT]: [ctbupdater.CTBUpdater:preInit:167]: -
+[21:44:22] [Client thread/INFO] [STDOUT]: [ctbupdater.CTBUpdater:preInit:167]: -
+[21:44:22] [Client thread/INFO] [STDOUT]: [ctbupdater.CTBUpdater:preInit:167]: -
+[21:44:22] [Client thread/INFO] [STDOUT]: [ctbupdater.CTBUpdater:preInit:167]: -
+[21:44:22] [Client thread/INFO] [STDOUT]: [ctbupdater.CTBUpdater:preInit:167]: -
+[21:44:22] [Client thread/INFO] [STDOUT]: [ctbupdater.CTBUpdater:preInit:169]: Failed to update CtB for an unknown reason. Dangit Unknown!
+[21:44:22] [Client thread/INFO] [STDOUT]: [ctbupdater.CTBUpdater:preInit:172]: -
+[21:44:22] [Client thread/INFO] [STDOUT]: [ctbupdater.CTBUpdater:preInit:172]: -
+[21:44:22] [Client thread/INFO] [STDOUT]: [ctbupdater.CTBUpdater:preInit:172]: -
+[21:44:22] [Client thread/INFO] [STDOUT]: [ctbupdater.CTBUpdater:preInit:172]: -
+[21:44:22] [Client thread/INFO] [STDOUT]: [ctbupdater.CTBUpdater:preInit:172]: -
+[21:44:22] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Chisel, FMLFileResourcePack:Call to Battle Updater, FMLFileResourcePack:Custom Main Menu, FMLFileResourcePack:CustomNpcs, FMLFileResourcePack:EiraMoticons, FMLFileResourcePack:Flan's Mod Ultimate, FMLFileResourcePack:FPS Reducer, FMLFileResourcePack:§aGliby's§f Voice Chat Mod, FMLFileResourcePack:Immersive Engineering, FMLFileResourcePack:InviBlock, FMLFileResourcePack:Wolff's NPCs
+[21:44:22] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[21:44:23] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[21:44:23] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at com.google.gson.Gson.fromJson(Gson.java:717)
+[21:44:23] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at net.minecraftforge.common.ForgeVersion$1.run(ForgeVersion.java:94)
+[21:44:23] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at com.google.gson.Gson.fromJson(Gson.java:803)
+[21:44:24] [Client thread/INFO] [STDOUT]: [noppes.npcs.controllers.ServerCloneController:loadClones:38]: C:\Users\tangu\AppData\Roaming\.World of Nations\customnpcs\clones\..\clonednpcs.dat
+[21:44:24][FINE][noppes.npcs.LogWriter:71] Fri May 07 21:44:24 CEST 2021
+[21:44:24][FINE][noppes.npcs.controllers.ScriptController:60] Script Engines Available:
+[21:44:26] [Client thread/INFO] [STDOUT]: [com.flansmod.common.FlansMod:log:705]: [Flan's Mod] Preinitialising Flan's mod.
+[21:44:26] [Client thread/INFO] [STDOUT]: [com.flansmod.common.FlansMod:log:705]: [Flan's Mod] Loaded content pack : Simple Parts-Content Pack-1.7.10-4.8.0
+[21:44:26] [Client thread/INFO] [STDOUT]: [com.flansmod.common.FlansMod:log:705]: [Flan's Mod] Loaded textures and models.
+[21:44:27] [Client thread/INFO] [STDOUT]: [com.flansmod.common.FlansMod:log:705]: [Flan's Mod] Failed to load model : 44_Morphine (None)
+[21:44:27] [Client thread/INFO] [STDOUT]: [com.flansmod.common.FlansMod:log:705]: [Flan's Mod] Failed to load model : 44_Torpedo (W44.Torpedo)
+[21:44:27] [Client thread/INFO] [STDOUT]: [com.flansmod.common.FlansMod:log:705]: [Flan's Mod] Loaded grenade.
+[21:44:27] [Client thread/INFO] [STDOUT]: [com.flansmod.common.FlansMod:log:705]: [Flan's Mod] Loaded aa.
+[21:44:27] [Client thread/INFO] [STDOUT]: [com.flansmod.common.FlansMod:log:705]: [Flan's Mod] Errored reading 44_Churchill3AVRE
+[21:44:28] [Client thread/INFO] [STDOUT]: [com.flansmod.common.FlansMod:log:705]: [Flan's Mod] Errored reading 44_IS2
+[21:44:28] [Client thread/INFO] [STDOUT]: [com.flansmod.common.FlansMod:log:705]: [Flan's Mod] Errored reading 44_KV2
+[21:44:29] [Client thread/INFO] [STDOUT]: [com.flansmod.common.FlansMod:log:705]: [Flan's Mod] Errored reading 44_Mg34Tripod
+[21:44:29] [Client thread/INFO] [STDOUT]: [com.flansmod.common.FlansMod:log:705]: [Flan's Mod] Errored reading 44_Mg34Tripod
+[21:44:29] [Client thread/INFO] [STDOUT]: [com.flansmod.common.FlansMod:log:705]: [Flan's Mod] Errored reading 44_OI
+[21:44:29] [Client thread/INFO] [STDOUT]: [com.flansmod.common.FlansMod:log:705]: [Flan's Mod] Errored reading 44_PantherCommand
+[21:44:29] [Client thread/INFO] [STDOUT]: [com.flansmod.common.FlansMod:log:705]: [Flan's Mod] Errored reading 44_T26E1
+[21:44:30] [Client thread/INFO] [STDOUT]: [com.flansmod.common.FlansMod:log:705]: [Flan's Mod] Errored reading 44_Tiger2
+[21:44:30] [Client thread/INFO] [STDOUT]: [com.flansmod.common.FlansMod:log:705]: [Flan's Mod] Errored reading 44_Type92Tripod
+[21:44:30] [Client thread/INFO] [STDOUT]: [com.flansmod.common.FlansMod:log:705]: [Flan's Mod] Loaded vehicle.
+[21:44:30] [Client thread/INFO] [STDOUT]: [com.flansmod.common.FlansMod:log:705]: [Flan's Mod] Failed to find dye colour : AddDye while adding 44_D3A
+[21:44:30] [Client thread/INFO] [STDOUT]: [com.flansmod.common.FlansMod:log:705]: [Flan's Mod] Failed to find dye colour : AddDye while adding 44_Spitfire
+[21:44:30] [Client thread/INFO] [STDOUT]: [com.flansmod.common.FlansMod:log:705]: [Flan's Mod] Loaded plane.
+[21:44:30] [Client thread/INFO] [STDOUT]: [com.flansmod.common.FlansMod:log:705]: [Flan's Mod] Loaded mecha.
+[21:44:31] [Client thread/INFO] [STDOUT]: [com.flansmod.common.FlansMod:log:705]: [Flan's Mod] Loaded armour.
+[21:44:31] [Client thread/INFO] [STDOUT]: [com.flansmod.common.FlansMod:log:705]: [Flan's Mod] Loaded box.
+[21:44:31] [Client thread/INFO] [STDOUT]: [com.flansmod.common.FlansMod:log:705]: [Flan's Mod] Loaded playerClass.
+[21:44:31] [Client thread/INFO] [STDOUT]: [com.flansmod.common.FlansMod:log:705]: [Flan's Mod] Loading Flan's mod client side.
+[21:44:31] [Client thread/INFO] [STDOUT]: [com.flansmod.common.FlansMod:log:705]: [Flan's Mod] Preinitializing complete.
+[21:44:32] [pool-2-thread-1/INFO] [Gliby's Voice Chat Mod]: Mod is up-to-date.
+[21:44:32] [Client thread/INFO] [FML]: Holder lookups applied
+[21:44:32] [Client thread/INFO] [Config]: [OptiFine] *** Reloading textures ***
+[21:44:32] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:44:32] [Thread-12/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[21:44:33] [Thread-12/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[21:44:33] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_pane_white.properties
+[21:44:33] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_pane_purple.properties
+[21:44:33] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_blue.properties
+[21:44:33] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_brown.properties
+[21:44:33] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_green.properties
+[21:44:33] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_pane_red.properties
+[21:44:33] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_black.properties
+[21:44:33] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_pane_black.properties
+[21:44:33] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_pane_orange.properties
+[21:44:33] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_magenta.properties
+[21:44:34] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_light_blue.properties
+[21:44:34] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_pane_yellow.properties
+[21:44:34] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_pane_lime.properties
+[21:44:34] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pink.properties
+[21:44:34] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_pane_gray.properties
+[21:44:34] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_cyan.properties
+[21:44:34] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glass.properties
+[21:44:34] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/sandstone.properties
+[21:44:34] [Client thread/INFO] [Config]: [OptiFine] Loading texture map: textures/blocks
+[21:44:34] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_pane_white.properties
+[21:44:34] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_pane_purple.properties
+[21:44:34] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_blue.properties
+[21:44:34] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_brown.properties
+[21:44:34] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_green.properties
+[21:44:34] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_pane_red.properties
+[21:44:34] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_red.properties
+[21:44:34] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_pane_black.properties
+[21:44:34] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_pane_orange.properties
+[21:44:34] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_light_blue.properties
+[21:44:34] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_pane_light_blue.properties
+[21:44:34] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_yellow.properties
+[21:44:35] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_lime.properties
+[21:44:35] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pane_pink.properties
+[21:44:35] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_gray.properties
+[21:44:35] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_pane_silver.properties
+[21:44:35] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_silver.properties
+[21:44:35] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_pane_cyan.properties
+[21:44:35] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glass.properties
+[21:44:35] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/sandstone.properties
+[21:44:35] [Client thread/INFO] [Config]: [OptiFine] Texture size: textures/blocks, 16x16
+[21:44:35] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[21:44:35] [Client thread/INFO] [Config]: [OptiFine] Texture size: textures/items, 16x16
+[21:44:35] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[21:44:35] [Client thread/ERROR] [CodeChickenCore]: Unable to do mod description scrolling due to lack of stencil buffer
+[21:44:35] [Client thread/INFO] [STDOUT]: [com.flansmod.common.FlansMod:log:705]: [Flan's Mod] Loaded recipes.
+[21:44:35] [Client thread/INFO] [Gliby's Voice Chat Mod]: Successfully replaced sound libraries.
+[21:44:36] [Client thread/INFO] [ImmersiveEngineering]: Attempting to extend PotionArray by 4
+[21:44:36] [Client thread/INFO] [Config]: [OptiFine] Texture size: textures/revolvers, 16x16
+[21:44:36] [Immersive Engineering Contributors Thread/INFO] [ImmersiveEngineering]: Attempting to download special revolvers from GitHub
+[21:44:36] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Chisel, FMLFileResourcePack:Call to Battle Updater, FMLFileResourcePack:Custom Main Menu, FMLFileResourcePack:CustomNpcs, FMLFileResourcePack:EiraMoticons, FMLFileResourcePack:Flan's Mod Ultimate, FMLFileResourcePack:FPS Reducer, FMLFileResourcePack:§aGliby's§f Voice Chat Mod, FMLFileResourcePack:Immersive Engineering, FMLFileResourcePack:InviBlock, FMLFileResourcePack:Wolff's NPCs, FMLFileResourcePack:Flan's Mod : Simple Parts-Content Pack-1.7.10-4.8.0, FMLFileResourcePack:Flan's Mod : Warfare44ContentPack- Version 3.1 - Scott.jar
+[21:44:36] [Emote Loader/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+[21:44:36] [Emote Loader/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at sun.net.www.protocol.http.HttpURLConnection.access$200(Unknown Source)
+[21:44:36] [Emote Loader/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source)
+[21:44:36] [Emote Loader/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at java.security.AccessController.doPrivilegedWithCombiner(Unknown Source)
+[21:44:36] [Emote Loader/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+[21:44:36] [Emote Loader/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at net.blay09.mods.eiramoticons.ClientProxy$1.run(ClientProxy.java:106)
+[21:44:36] [Client thread/INFO] [Config]: [OptiFine] *** Reloading textures ***
+[21:44:36] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_pane_white.properties
+[21:44:36] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_pane_purple.properties
+[21:44:37] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_purple.properties
+[21:44:37] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_pane_blue.properties
+[21:44:37] [Emote Loader/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+[21:44:37] [Emote Loader/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source)
+[21:44:37] [Emote Loader/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at java.security.AccessController.doPrivileged(Native Method)
+[21:44:37] [Emote Loader/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at java.security.AccessController.doPrivilegedWithCombiner(Unknown Source)
+[21:44:37] [Emote Loader/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+[21:44:37] [Emote Loader/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+[21:44:37] [Emote Loader/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at org.apache.commons.io.FileUtils.copyURLToFile(FileUtils.java:1489)
+[21:44:37] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_green.properties
+[21:44:37] [Emote Loader/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+[21:44:37] [Emote Loader/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source)
+[21:44:37] [Emote Loader/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at java.security.AccessController.doPrivileged(Native Method)
+[21:44:37] [Emote Loader/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+[21:44:37] [Emote Loader/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at org.apache.commons.io.FileUtils.copyURLToFile(FileUtils.java:1489)
+[21:44:37] [Emote Loader/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at net.blay09.mods.eiramoticons.addon.pack.TwitchSubscriberPack.<init>(TwitchSubscriberPack.java:38)
+[21:44:37] [Emote Loader/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at java.lang.Thread.run(Unknown Source)
+[21:44:37] [Emote Loader/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at com.google.gson.Gson.assertFullConsumption(Gson.java:779)
+[21:44:37] [Emote Loader/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at net.blay09.mods.eiramoticons.ClientProxy$1.run(ClientProxy.java:150)
+[21:44:37] [Emote Loader/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at java.lang.Thread.run(Unknown Source)
+[21:44:37] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_red.properties
+[21:44:37] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_orange.properties
+[21:44:37] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_magenta.properties
+[21:44:37] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_light_blue.properties
+[21:44:37] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_pane_light_blue.properties
+[21:44:37] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_yellow.properties
+[21:44:37] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_pane_lime.properties
+[21:44:37] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pink.properties
+[21:44:37] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_pane_gray.properties
+[21:44:37] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_silver.properties
+[21:44:37] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_pane_cyan.properties
+[21:44:37] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glass.properties
+[21:44:37] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/sandstone.properties
+[21:44:38] [Client thread/ERROR]: Using missing texture, unable to load immersiveengineering:textures/blocks/metal2_skycrateDispenser.png, java.io.FileNotFoundException
+[21:44:39] [Client thread/INFO] [Config]: [OptiFine] Texture size: textures/blocks, 2048x1024
+[21:44:39] [Client thread/INFO]: Created: 2048x1024 textures/blocks-atlas
+[21:44:39] [Client thread/INFO] [ImmersiveEngineering]: Stitching Revolver Textures!
+[21:44:39] [Client thread/ERROR]: Using missing texture, unable to load immersiveengineering:textures/revolvers/revolver_rose.png, java.io.FileNotFoundException
+[21:44:39] [Client thread/INFO] [Config]: [OptiFine] Loading texture map: textures/items
+[21:44:39] [Client thread/ERROR]: Using missing texture, unable to load chisel:textures/items/smashingrock.png, java.io.FileNotFoundException
+[21:44:39] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:44:40] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:44:40] [Thread-17/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL Updated OpenAL
+[21:44:40] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:44:41] [Client thread/INFO] [Config]: [OptiFine] *** Reloading custom textures ***
+[21:44:41] [Client thread/INFO] [Config]: [OptiFine] Loading custom colors: textures/colormap/foliage.png
+[21:44:48] [Netty Client IO #0/INFO] [FML]: Server protocol version 2
+[21:44:48] [Netty Client IO #0/INFO] [FML]: Injecting existing block and item data into this client instance
+[21:44:48] [Netty Client IO #0/INFO] [FML]: Holder lookups applied
+[21:44:50] [Thread-11/INFO]: [CHAT] §2CustomNpcs§f installed. For more info §9§nClick here
+[21:44:50] [Client thread/ERROR] [CodeChickenCore]: Failed to scan C:\Users\tangu\AppData\Roaming\.World of Nations\mods\Call to Battle 2.jar, the zip file is invalid
+java.io.EOFException: Unexpected end of ZLIB input stream
+	at java.util.zip.InflaterInputStream.fill(Unknown Source) ~[?:1.8.0_291]
+	at java.util.zip.InflaterInputStream.read(Unknown Source) ~[?:1.8.0_291]
+	at java.util.zip.ZipInputStream.read(Unknown Source) ~[?:1.8.0_291]
+	at java.util.zip.ZipInputStream.closeEntry(Unknown Source) ~[?:1.8.0_291]
+	at java.util.zip.ZipInputStream.getNextEntry(Unknown Source) ~[?:1.8.0_291]
+	at codechicken.core.ClassDiscoverer.readFromZipFile(ClassDiscoverer.java:116) ~[ClassDiscoverer.class:?]
+	at codechicken.core.ClassDiscoverer.findClasspathMods(ClassDiscoverer.java:100) [ClassDiscoverer.class:?]
+	at codechicken.core.ClassDiscoverer.findClasses(ClassDiscoverer.java:51) [ClassDiscoverer.class:?]
+	at codechicken.nei.NEIClientConfig.bootNEI(NEIClientConfig.java:273) [NEIClientConfig.class:?]
+	at codechicken.nei.NEIClientConfig.loadWorld(NEIClientConfig.java:208) [NEIClientConfig.class:?]
+	at codechicken.nei.NEICPH.handleSMPCheck(NEICPH.java:109) [NEICPH.class:?]
+	at codechicken.nei.NEICPH.handlePacket(NEICPH.java:23) [NEICPH.class:?]
+	at codechicken.lib.packet.PacketCustom$ClientInboundHandler.handle(PacketCustom.java:100) [PacketCustom$ClientInboundHandler.class:?]
+	at codechicken.lib.packet.PacketCustom$CustomInboundHandler.channelRead0(PacketCustom.java:77) [PacketCustom$CustomInboundHandler.class:?]
+	at codechicken.lib.packet.PacketCustom$CustomInboundHandler.channelRead0(PacketCustom.java:64) [PacketCustom$CustomInboundHandler.class:?]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:98) [SimpleChannelInboundHandler.class:?]
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337) [DefaultChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323) [DefaultChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:785) [DefaultChannelPipeline.class:?]
+	at io.netty.channel.embedded.EmbeddedChannel.writeInbound(EmbeddedChannel.java:169) [EmbeddedChannel.class:?]
+	at cpw.mods.fml.common.network.internal.FMLProxyPacket.func_148833_a(FMLProxyPacket.java:77) [FMLProxyPacket.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:212) [ej.class:?]
+	at net.minecraft.client.multiplayer.GuiConnecting.func_73876_c(SourceFile:78) [bcx.class:?]
+	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1661) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:973) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:898) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_291]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_291]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_291]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_291]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+[21:44:51] [Client thread/INFO]: [CHAT] A new §eOptiFine§f version is available: §eHD Ultra E7§f
+[21:44:51] [Client thread/INFO]: [CHAT] =====================================================
+[21:44:51] [Client thread/INFO]: [CHAT] Bienvenue [ModoT] XDemon sur World of Nations
+[21:44:51] [Client thread/INFO]: [CHAT] Joueurs en ligne : 8
+[21:44:51] [Client thread/INFO]: [CHAT] 
+[21:44:52] [Client thread/INFO] [Gliby's Voice Chat Mod]: Connecting to [Minecraft] Server, settings[Buffer=128, MinQuality=0, MaxQuality=9, Distance=64, Display Voice Icons: true, Display Voice Plates: true]
+[21:44:56] [Client thread/INFO]: [CHAT] In order to use this command you must be authenticated!
+[21:45:05] [Client thread/INFO]: [CHAT] Please, login with the command: /login <password>
+[21:45:12] [Client thread/INFO]: [CHAT] [World of Nations] Attention les items au sol vont être supprimés dans 55 secondes!
+[21:45:15] [Client thread/INFO]: [CHAT] Please, login with the command: /login <password>
+[21:45:18] [Netty Client IO #0/INFO] [Gliby's Voice Chat Mod]: Stopped Voice Client.
+[21:45:18] [Client thread/INFO] [FML]: Holder lookups applied
+[21:45:44] [Client thread/INFO]: Connecting to minecraft211.omgserv.com, 10003
+[21:45:44] [Netty Client IO #1/INFO] [FML]: Attempting connection with missing mods [CustomMainMenu, FpsReducer] at SERVER
+[21:45:44] [Netty Client IO #1/INFO] [FML]: Applying holder lookups
+[21:45:44] [Netty Client IO #1/INFO] [FML]: Holder lookups applied
+[21:45:45] [Client thread/INFO]: [CHAT]  [+] XDemon
+[21:45:45] [Client thread/INFO]: [CHAT] 
+[21:45:45] [Client thread/INFO]: [CHAT] Bienvenue [ModoT] XDemon sur World of Nations
+[21:45:45] [Client thread/INFO]: [CHAT] 
+[21:45:45] [Client thread/INFO]: [CHAT] =====================================================
+[21:45:45] [Client thread/INFO] [Gliby's Voice Chat Mod]: Connecting to [Minecraft] Server, settings[Buffer=128, MinQuality=0, MaxQuality=9, Distance=64, Display Voice Icons: true, Display Voice Plates: true]
+[21:45:46] [Client thread/WARN]: Failed to load texture: flansmod:skins/None.png
+java.io.FileNotFoundException: flansmod:skins/None.png
+	at net.minecraft.client.resources.FallbackResourceManager.func_110536_a(SourceFile:51) ~[bqq.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110536_a(SimpleReloadableResourceManager.java:67) ~[brg.class:?]
+	at net.minecraft.client.renderer.texture.SimpleTexture.func_110551_a(SimpleTexture.java:35) ~[bpu.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110579_a(TextureManager.java:101) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110577_a(TextureManager.java:52) [bqf.class:?]
+	at com.flansmod.client.model.RenderGun.preRenderAttachment(RenderGun.java:1093) [RenderGun.class:?]
+	at com.flansmod.client.model.RenderGun.renderGun(RenderGun.java:1021) [RenderGun.class:?]
+	at com.flansmod.client.model.RenderGun.renderGun(RenderGun.java:402) [RenderGun.class:?]
+	at com.flansmod.client.model.RenderGun.renderItem(RenderGun.java:73) [RenderGun.class:?]
+	at net.minecraftforge.client.ForgeHooksClient.renderEquippedItem(ForgeHooksClient.java:232) [ForgeHooksClient.class:?]
+	at net.minecraft.client.renderer.ItemRenderer.renderItem(ItemRenderer.java:80) [bly.class:?]
+	at net.minecraft.client.renderer.ItemRenderer.func_78440_a(ItemRenderer.java:499) [bly.class:?]
+	at ItemRendererOF.func_78440_a(ItemRendererOF.java:197) [ItemRendererOF.class:?]
+	at net.minecraft.client.renderer.EntityRenderer.renderHand(EntityRenderer.java:1010) [blt.class:?]
+	at net.minecraft.client.renderer.EntityRenderer.func_78476_b(EntityRenderer.java:945) [blt.class:?]
+	at net.minecraft.client.renderer.EntityRenderer.func_78471_a(EntityRenderer.java:1933) [blt.class:?]
+	at net.minecraft.client.renderer.EntityRenderer.func_78480_b(EntityRenderer.java:1392) [blt.class:?]
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1001) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:898) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_291]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_291]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_291]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_291]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+[21:45:52] [Client thread/INFO]: [CHAT] **Grenadines [Soldat] JeanPierre : tu peux miner par la
+[21:45:58] [Client thread/INFO]: [CHAT] +Grenadines [Soldat] jeanchristo : oky \
+[21:45:59] [Client thread/INFO]: [CHAT] Welcome XDemon on Unknown Server server
+[21:45:59] [Client thread/INFO]: [CHAT] This server uses AuthMeReloaded protection!
+[21:45:59] [Client thread/INFO]: [CHAT] [moi -> [ModoT] XDemon] Welcome back!
+[21:46:01] [Client thread/INFO]: [CHAT] +Grenadines [Soldat] jeanchristo : mais question
+[21:46:07] [Client thread/INFO]: [CHAT] [World of Nations] 32 entitées ont été supprimées !
+[21:46:24] [Client thread/INFO]: [CHAT] Your power is now 0,87 / 50,00
+[21:46:24] [Client thread/INFO]: [CHAT] XDemon died
+[21:46:38] [Client thread/INFO]: [CHAT] Teleporting to your faction home.
+[21:46:57] [Client thread/INFO]: [CHAT] [Soldat] Neven : Votre lien discord ne fonctionne plus
+[21:47:01] [Client thread/INFO]: [CHAT] **TheHorde [ModoT] XDemon : azy le login de merde
+[21:47:05] [Client thread/INFO]: [CHAT] *iRayeR [Guide] Mimito : xd
+[21:47:55] [Client thread/INFO]: [CHAT] **Grenadines [Soldat] JeanPierre : ya de la canne a sucre sur la map?
+[21:48:14] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[21:48:34] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[21:48:55] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[21:49:06] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[21:49:23] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[21:50:19] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[21:50:34] [Client thread/INFO]: [CHAT] Erreur : Temps avant la prochaine téléportation 4 secondes
+[21:50:37] [Client thread/INFO]: [CHAT] +Grenadines [Soldat] jeanchristo : eeeeeh je crois que nn
+[21:50:51] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[21:50:57] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[21:51:10] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[21:51:14] [Client thread/INFO]: [CHAT] **Grenadines [Soldat] JeanPierre : sinon ta combien de tune?
+[21:51:24] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[21:51:33] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[21:52:08] [Client thread/INFO]: [CHAT]  [+] Darkfuze
+[21:52:38] [Client thread/INFO]: [CHAT]  [-] Darkfuze
+[21:53:01] [Client thread/INFO]: [CHAT] -iRayeR ?Général? Darkfuze : ya
+[21:53:04] [Client thread/INFO]: [CHAT] [Soldat] Neven : yo
+[21:53:08] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[21:53:08] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[21:53:51] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[21:54:08] [Client thread/INFO]: [CHAT] [MRL] Spawn_Mine a Ã©tÃ© rÃ©initialisÃ©e automatiquement!
+[21:54:28] [Client thread/INFO]: [CHAT] [World of Nations] Attention les items au sol vont être supprimés dans 100 secondes !
+[21:54:29] [Client thread/INFO]: [CHAT] [Soldat] Neven : Triste
+[21:54:34] [Client thread/INFO]: [CHAT] *TheHorde [Soldat] mathdu25 : f home
+[21:55:13] [Client thread/INFO]: [CHAT] [World of Nations] Attention les items au sol vont être supprimés dans 55 secondes!
+[21:55:52] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[21:56:07] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[21:56:08] [Client thread/INFO]: [CHAT] [World of Nations] 18 entitées ont été supprimées !
+[21:56:48] [Client thread/INFO]: [CHAT] [Soldat] Neven : Il y a des facs qui recrutent ?
+[21:57:31] [Client thread/INFO]: [CHAT]  [-] jeanchristo
+[21:57:59] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[21:59:13] [Client thread/INFO]: [CHAT]  [-] Raphles
+[21:59:24] [Client thread/INFO]: [CHAT] Your power is now 0,00 / 50,00
+[21:59:38] [Client thread/INFO]: [CHAT] Erreur : Temps avant la prochaine téléportation now
+[21:59:47] [Client thread/INFO]: [CHAT]  [-] JeanPierre
+[22:00:39] [Client thread/INFO]: [CHAT] [Soldat] Neven : C'est un peu vide de base non ?
+[22:01:07] [Client thread/INFO]: [CHAT] [Soldat] Neven : Bah je suis dans le wilderness j'ai croisé quoi, 3 bases
+[22:01:17] [Client thread/INFO]: [CHAT] +Grenadines [Soldat] jeanchristo : ok
+[22:01:20] [Client thread/INFO]: [CHAT] +Grenadines [Soldat] jeanchristo : XD
+[22:01:34] [Client thread/INFO]: [CHAT]  ~ Wilderness
+[22:01:35] [Client thread/INFO]: [CHAT]  ~ iRayeR
+[22:01:43] [Client thread/INFO]: [CHAT] Résidences : home, cache, arbre, snipe, haut, tower, bk, vache
+[22:01:46] [Client thread/INFO]: [CHAT] Résidences : home, cache, arbre, snipe, haut, tower, bk, vache
+[22:01:56] [Client thread/INFO]: [CHAT] Erreur : Temps avant la prochaine téléportation 1 seconde
+[22:02:08] [Client thread/INFO]: [CHAT]  [-] Neven
+[22:02:11] [Client thread/INFO]: [CHAT] **iRayeR [Soldat] Raphles : full non fair play
+[22:02:31] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[22:02:54] [Client thread/INFO]: [CHAT] **TheHorde [ModoT] XDemon : pardon? j'ai mal compris?
+[22:03:06] [Client thread/INFO]: [CHAT] Résidence définie.
+[22:03:10] [Client thread/INFO]: [CHAT] Requête envoyée à [Soldat] mathdu25.
+[22:03:25] [Client thread/INFO]: [CHAT] [Soldat] mathdu25 a accepté votre demande de téléportation.
+[22:03:26] [Client thread/INFO]: [CHAT] +iRayeR ?Général? Darkfuze : non
+[22:03:36] [Client thread/INFO]: [CHAT] *iRayeR [Guide] Mimito : tadnsiq ue personne d'autre peut
+[22:04:02] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[22:04:24] [Client thread/INFO]: [CHAT] +Grenadines [Soldat] jeanchristo : gg
+[22:05:25] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[22:05:34] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[22:06:00] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[22:06:09] [Client thread/INFO]: [CHAT] [World of Nations] 5 entitées ont été supprimées !
+[22:06:19] [Client thread/INFO]: [CHAT] Mimito died
+[22:06:24] [Client thread/INFO]: [CHAT] *iRayeR [Guide] Mimito : issou
+[22:06:31] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[22:06:31] [Client thread/INFO]: [CHAT] +iRayeR ?Général? Darkfuze : ez
+[22:06:36] [Client thread/INFO]: [CHAT] +iRayeR ?Général? Darkfuze : ez back
+[22:07:36] [Client thread/INFO]: [CHAT]  [-] Darkfuze
+[22:08:01] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[22:08:07] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[22:08:38] [Client thread/INFO]: [CHAT] Erreur : Temps avant la prochaine téléportation 1 seconde
+[22:09:25] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[22:09:37] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[22:09:42] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[22:09:52] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[22:09:57] [Client thread/INFO]: [CHAT]  [+] Darkfuze
+[22:10:17] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[22:11:23] [Client thread/INFO]: [CHAT]  [-] dragonse2
+[22:11:49] [Client thread/INFO]: [CHAT] mathdu25 a accepté votre demande de téléportation.
+[22:12:57] [Client thread/INFO]: [CHAT] Darkfuze died
+[22:13:22] [Client thread/INFO]: [CHAT] ?Général? Darkfuze est muet pour 1 heure 59 minutes 59 secondes.
+[22:13:46] [Client thread/INFO]: [CHAT] **iRayeR [Soldat] Raphles : mais ftg tu es un modo persone te respecte ptite merde
+[22:13:53] [Client thread/INFO]: [CHAT] [Soldat] Raphles est muet pour 1 heure 59 minutes 59 secondes.
+[22:14:29] [Client thread/INFO]: [CHAT] [World of Nations] Attention les items au sol vont être supprimés dans 100 secondes !
+[22:14:41] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[22:14:54] [Client thread/INFO]: [CHAT] Requête envoyée à mathdu25.
+[22:14:59] [Client thread/INFO]: [CHAT] mathdu25 a accepté votre demande de téléportation.
+[22:14:59] [Client thread/INFO]: [CHAT] Téléportation en cours...
+[22:15:14] [Client thread/INFO]: [CHAT] [World of Nations] Attention les items au sol vont être supprimés dans 55 secondes!
+[22:15:54] [Client thread/INFO]: [CHAT] mathdu25 a accepté votre demande de téléportation.
+[22:16:09] [Client thread/INFO]: [CHAT] [World of Nations] 44 entitées ont été supprimées !
+[22:17:11] [Client thread/INFO]: [CHAT] mathdu25 died
+[22:20:56] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:21:02] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:21:12] [Client thread/INFO]: [CHAT]  [-] Darkfuze
+[22:21:28] [Client thread/INFO]: [CHAT] Requête envoyée à mathdu25.
+[22:21:30] [Client thread/INFO]: [CHAT]  [+] dragonse2
+[22:21:31] [Client thread/INFO]: [CHAT] Téléportation en cours...
+[22:21:43] [Client thread/WARN]: Unable to play unknown soundEvent: flansmod:HeavyImpact
+[22:22:04] [Client thread/INFO]: [CHAT]  [+] Darkfuze
+[22:23:50] [Client thread/INFO]: [CHAT] Raphles died
+[22:23:59] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[22:24:10] [Client thread/INFO]: [CHAT] [MRL] Spawn_Mine a Ã©tÃ© rÃ©initialisÃ©e automatiquement!
+[22:24:19] [Client thread/INFO]: [CHAT]  [-] jeanchristo
+[22:24:26] [Client thread/WARN]: Unable to play unknown soundEvent: flansmod:HeavyImpact
+[22:24:33] [Client thread/INFO]: [CHAT] *TheHorde [Soldat] mathdu25 : home
+[22:25:53] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:25:55] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:25:56] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:26:16] [Client thread/INFO]: [CHAT] ========== Zones ==========                                                       Mine : x: -100 z: 3385                                                                        Pétrole : x: 80 z: -2300                                                                   ==========================
+[22:26:41] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[22:26:52] [Client thread/INFO]: [CHAT] dragonse2 died
+[22:27:08] [Client thread/INFO]: [CHAT]  [+] jeanchristo
+[22:27:45] [Client thread/INFO]: [CHAT]  [+] jeanchristo
+[22:27:54] [Client thread/INFO]: [CHAT] [Soldat] mathdu25 a accepté votre demande de téléportation.
+[22:28:14] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[22:28:38] [Client thread/INFO]: [CHAT] Erreur : Temps avant la prochaine téléportation 1 seconde
+[22:28:41] [Client thread/INFO]: [CHAT] [Soldat] mathdu25 a accepté votre demande de téléportation.
+[22:29:18] [Client thread/INFO]: [CHAT] Résidences : home, cache, arbre, snipe, haut, tower, bk, vache, tour, snipe2
+[22:29:25] [Client thread/INFO]: [CHAT] La résidence cache a été supprimée.
+[22:29:55] [Client thread/WARN]: Unable to play unknown soundEvent: flansmod:HeavyImpact
+[22:29:57] [Client thread/INFO]: [CHAT] Your power is now 0,00 / 50,00
+[22:29:59] [Client thread/INFO]: [CHAT] *iRayeR [Guide] Mimito : ez
+[22:30:10] [Client thread/INFO]: [CHAT] **TheHorde [ModoT] XDemon : ez, je vous ai tué jspa cmb de fois x)
+[22:30:13] [Client thread/INFO] [FML]: Applying holder lookups
+AL lib: (EE) MMDevApiProc: Failed to get padding: 0x88890004
+[22:41:39] [Netty Client IO #2/INFO] [FML]: Server protocol version 2
+[22:41:39] [Netty Client IO #2/INFO] [FML]: Injecting existing block and item data into this client instance
+[22:41:39] [Netty Client IO #2/INFO] [FML]: Applying holder lookups
+[22:41:39] [Client thread/INFO] [FML]: [Client thread] Client side modded connection established
+[22:41:40] [Client thread/INFO]: [CHAT] =====================================================
+[22:41:40] [Client thread/INFO]: [CHAT] 
+[22:41:41] [Client thread/INFO]: [CHAT] Please, login with the command: /login <password>
+[22:41:43] [Client thread/INFO]: [CHAT] In order to use this command you must be authenticated!
+[22:41:46] [Client thread/INFO]: [CHAT] Please, login with the command: /login <password>
+[22:41:56] [Client thread/INFO]: [CHAT] Please, login with the command: /login <password>
+[22:41:59] [Client thread/INFO]: [CHAT] 
+[22:41:59] [Client thread/INFO]: [CHAT] [moi -> [ModoT] XDemon] Welcome back!
+[22:41:59] [Client thread/INFO]: [CHAT] [[ModoT] XDemon -> moi] Welcome back!
+[22:42:08] [Client thread/INFO]: [CHAT]  [+] Darkfuze
+[22:42:17] [Client thread/INFO]: [CHAT] *TheHorde [Soldat] mathdu25 : 2v4
+[22:42:27] [Client thread/INFO]: [CHAT]  [+] jeanchristo
+[22:42:29] [Client thread/INFO]: [CHAT] **TheHorde [ModoT] XDemon : 3 et moi je sais pas cmb de fous je vous ai tué
+[22:42:50] [Client thread/INFO]: [CHAT]  [+] studioz
+[22:42:53] [Client thread/INFO]: [CHAT] Résidences : home, arbre, snipe, haut, tower, bk, vache, tour, snipe2, tour2
+[22:43:07] [Client thread/INFO]: [CHAT] Teleporting to your faction home.
+[22:43:20] [Client thread/INFO]: [CHAT] Your power is now 0,00 / 50,00
+[22:43:20] [Client thread/INFO]: [CHAT] XDemon died
+[22:43:30] [Client thread/INFO]: [CHAT] **lateamcentra [Soldat] studioz : yo
+[22:43:34] [Client thread/INFO]: [CHAT] *TheHorde [Soldat] mathdu25 : yo
+[22:43:48] [Client thread/INFO]: [CHAT] [Fondateur] Lucas27400 : c'est la guerre ici
+[22:43:57] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[22:44:26] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[22:45:05] [Client thread/INFO]: [CHAT]  [+] jeanchristo
+[22:45:10] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[22:45:12] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[22:45:16] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[22:45:17] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[22:45:20] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[22:45:26] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[22:45:38] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[22:45:48] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[22:45:53] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[22:46:12] [Client thread/INFO]: [CHAT] [World of Nations] 22 entitées ont été supprimées !
+[22:48:08] [Client thread/INFO]: [CHAT] Requête envoyée à [Soldat] mathdu25.
+[22:49:17] [Client thread/INFO]: [CHAT] **TheHorde [ModoT] XDemon : moi je dis t'a changé
+[22:49:18] [Client thread/INFO]: [CHAT] *iRayeR [Soldat] dragonse2 : le seul qui a sauvé l'honneur
+[22:50:01] [Client thread/INFO]: [CHAT] *iRayeR [Soldat] dragonse2 : XDemon rien de perso
+[22:50:20] [Client thread/INFO]: [CHAT] **TheHorde [ModoT] XDemon : tt tes potes m'insultes, tu dis r
+[22:50:34] [Client thread/INFO]: [CHAT] **TheHorde [ModoT] XDemon : 2 semaines de plus on vous aurez guerre
+[22:50:42] [Client thread/INFO]: [CHAT] **lateamcentra [Soldat] studioz : dragonse2 je me co je vois t as grief wild pas nice ;/
+[22:50:43] [Client thread/INFO]: [CHAT] **TheHorde [ModoT] XDemon : la y a isweaz en vac et d'autres
+[22:51:17] [Client thread/INFO]: [CHAT] *************************************************************      Vous pouvez voter sur notre site ici :                                            http://worldofnations.inovaperf.me/vote                                      Afin de gagner plusieurs récompenses :D                                    *************************************************************
+[22:52:08] [Client thread/INFO]: [CHAT] **TheHorde [ModoT] XDemon : sa va, sa va...
+[22:52:17] [Client thread/INFO]: [CHAT] *iRayeR [Soldat] dragonse2 : XDemon vous avez tt mouve
+[22:52:25] [Client thread/INFO]: [CHAT] *TheHorde [Soldat] mathdu25 : nn
+[22:52:41] [Client thread/INFO]: [CHAT] *TheHorde [Soldat] mathdu25 : il reste 2 3 coffres
+[22:53:03] [Client thread/INFO]: [CHAT] Requête envoyée à [Soldat] studioz.
+[22:54:12] [Client thread/INFO]: [CHAT] [MRL] Spawn_Mine a Ã©tÃ© rÃ©initialisÃ©e automatiquement!
+[22:54:36] [Client thread/INFO]: [CHAT]  [+] jeanchristo
+[22:55:17] [Client thread/INFO]: [CHAT] [World of Nations] Attention les items au sol vont être supprimés dans 55 secondes!
+[22:55:50] [Client thread/INFO]: [CHAT] La résidence home a été supprimée.
+[22:56:02] [Client thread/INFO]: [CHAT]  [+] Frilex
+[22:56:11] [Client thread/INFO]: [CHAT] Requête envoyée à [Soldat] studioz.
+[22:56:15] [Client thread/INFO]: [CHAT] _________.[ Default Faction TiTansTeam ].____________
+[22:56:15] [Client thread/INFO]: [CHAT] Age: 2weeks, 5days and 16minutes
+[22:56:15] [Client thread/INFO]: [CHAT] Open: No, only invited people can join
+[22:56:15] [Client thread/INFO]: [CHAT] Land / Power / Maxpower:  12/17/20 
+[22:56:15] [Client thread/INFO]: [CHAT] In Truce with: SafeZone, WarZone
+[22:56:15] [Client thread/INFO]: [CHAT] Allies: lateamcentra, furry
+[22:56:15] [Client thread/INFO]: [CHAT] Enemies: 
+[22:56:17] [Client thread/INFO]: [CHAT] ========== Zones ==========                                                       Mine : x: -100 z: 3385                                                                        Pétrole : x: 80 z: -2300                                                                   ==========================
+[22:56:32] [Client thread/INFO]: [CHAT]  [-] Frilex
+[22:56:33] [Client thread/INFO]: [CHAT] Erreur : Le joueur est introuvable.
+[22:56:37] [Client thread/INFO]: [CHAT] Téléportation en cours...
+[22:57:02] [Client thread/INFO]: [CHAT]  [+] Frilex
+[22:57:32] [Client thread/INFO]: [CHAT]  [-] Frilex
+[22:58:16] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[22:58:23] [Client thread/INFO]: [CHAT] *iRayeR [Soldat] dragonse2 : lequelle
+[22:58:26] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[22:58:43] [Client thread/INFO]: [CHAT] *iRayeR [Guide] Mimito : ah bah il sont tous bien dsl
+[22:58:55] [Client thread/INFO]: [CHAT] *iRayeR [Soldat] dragonse2 : il ont tous ou presque une mitraillette
+[22:59:06] [Client thread/INFO]: [CHAT] *iRayeR [Guide] Mimito : ;)
+[22:59:12] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[22:59:25] [Client thread/INFO]: [CHAT] *iRayeR [Guide] Mimito : le null c'est sa ?
+[22:59:36] [Client thread/INFO]: [CHAT] **TheHorde [ModoT] XDemon : on est 2....
+[22:59:46] [Client thread/INFO]: [CHAT] *iRayeR [Guide] Mimito : issou
+[22:59:59] [Client thread/INFO]: [CHAT] **lateamcentra [Soldat] studioz : ok j arrv avec mon bandange
+[23:00:25] [Client thread/INFO]: [CHAT] [Soldat] mathdu25 a accepté votre demande de téléportation.
+[23:00:51] [Client thread/INFO]: [CHAT] [Soldat] studioz a accepté votre demande de téléportation.
+[23:00:57] [Client thread/INFO]: [CHAT]  ~ iRayeR
+[23:01:02] [Client thread/INFO]: [CHAT]  ~ iRayeR
+[23:01:17] [Client thread/INFO]: [CHAT] Nos réseaux :                                                                                   Site : http://worldofnations.inovaperf.me/                                      Discord : https://discord.gg/D6sXC5QuCY
+[23:01:45] [Client thread/INFO]: [CHAT]  [+] Lucas27400
+[23:02:19] [Client thread/INFO]: [CHAT]  ~ iRayeR
+[23:02:54] [Client thread/INFO]: [CHAT] *iRayeR [Soldat] dragonse2 : gg
+[23:03:12] [Client thread/INFO]: [CHAT] [Fondateur] Lucas27400 : Jolie stuff dragonse2 xd
+[23:03:35] [Client thread/INFO]: [CHAT] dragonse2 died
+[23:03:41] [Client thread/INFO]: [CHAT] *iRayeR [Soldat] dragonse2 : mdr
+[23:04:08] [Client thread/INFO]: [CHAT]  [-] Frilex
+[23:04:32] [Client thread/INFO]: [CHAT] [World of Nations] Attention les items au sol vont être supprimés dans 100 secondes !
+[23:05:17] [Client thread/INFO]: [CHAT] [World of Nations] Attention les items au sol vont être supprimés dans 55 secondes!
+[23:06:17] [Client thread/INFO]: [CHAT] *************************************************************      Vous pouvez voter sur notre site ici :                                            http://worldofnations.inovaperf.me/vote                                      Afin de gagner plusieurs récompenses :D                                    *************************************************************
+[23:06:34] [Client thread/INFO]: [CHAT] Résidences : arbre, snipe, haut, tower, bk, vache, tour, snipe2, tour2
+[23:08:08] [Client thread/INFO]: [CHAT] Résidences : arbre, snipe, haut, tower, bk, vache, tour, snipe2, tour2
+[23:09:36] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[23:10:15] [Client thread/INFO]: [CHAT]  [+] jeanchristo
+[23:10:27] [Client thread/INFO]: [CHAT] *TheHorde [Soldat] mathdu25 : rip
+[23:11:14] [Client thread/INFO]: [CHAT] XDemon died
+[23:11:18] [Client thread/INFO]: [CHAT] ========== Zones ==========                                                       Mine : x: -100 z: 3385                                                                        Pétrole : x: 80 z: -2300                                                                   ==========================
+[23:11:25] [Client thread/INFO]: [CHAT] **TheHorde [ModoT] XDemon : la co qui tue...
+[23:11:44] [Client thread/INFO]: [CHAT] *iRayeR [Guide] Mimito : gg a toi
+[23:11:51] [Client thread/INFO]: [CHAT] [Fondateur] Lucas27400 : ?
+[23:12:08] [Client thread/INFO]: [CHAT] [Fondateur] Lucas27400 : tu vois quoi ?
+[23:12:16] [Client thread/INFO]: [CHAT]  [-] Mimito
+[23:13:00] [Client thread/INFO]: [CHAT] **TheHorde [ModoT] XDemon : tkt je sais deja ce qu'il y a dedasn mdrrr
+[23:14:53] [Client thread/INFO]: [CHAT]  [-] jeanchristo
+[23:16:05] [Client thread/INFO]: [CHAT] Frilex, Lucas27400, Raphles, XDemon, dragonse2, studioz
+[23:16:15] [Client thread/INFO]: [CHAT] Teleporting to your faction home.
+[23:16:18] [Client thread/INFO]: [CHAT] Nos réseaux :                                                                                   Site : http://worldofnations.inovaperf.me/                                      Discord : https://discord.gg/D6sXC5QuCY
+[23:16:40] [Client thread/INFO]: [CHAT] Teleporting to your faction home.
+[23:17:00] [Client thread/INFO]: [CHAT] studioz a accepté votre demande de téléportation.
+[23:17:00] [Client thread/INFO]: [CHAT] Téléportation en cours...
+[23:17:08] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[23:17:18] [Client thread/INFO]: [CHAT] ___________.[ Access at Monde -18 211 ]._____________
+[23:17:18] [Client thread/INFO]: [CHAT] Host Faction Allowed: FALSE
+[23:17:18] [Client thread/INFO]: [CHAT] Granted Factions: none
+[23:17:22] [Client thread/INFO] [STDOUT]: [com.flansmod.common.FlansMod:log:705]: [Flan's Mod] Failed to load model : 44_Morphine (None)
+[23:17:24] [Client thread/INFO] [STDOUT]: [com.flansmod.common.FlansMod:log:705]: [Flan's Mod] Failed to load model : 44_Morphine (None)
+[23:17:35] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[23:17:48] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[23:17:55] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[23:17:59] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[23:18:09] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[23:18:10] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[23:19:40] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[23:19:50] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[23:19:56] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[23:19:58] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[23:20:09] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[23:20:36] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[23:20:39] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[23:21:12] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[23:21:19] [Client thread/INFO]: [CHAT] *************************************************************      Vous pouvez voter sur notre site ici :                                            http://worldofnations.inovaperf.me/vote                                      Afin de gagner plusieurs récompenses :D                                    *************************************************************
+[23:21:35] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[23:21:39] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[23:22:45] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[23:22:53] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[23:22:55] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[23:23:00] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[23:23:02] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[23:23:06] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[23:23:08] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[23:23:10] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[23:23:14] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[23:23:17] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[23:23:24] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[23:23:31] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[23:23:38] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[23:23:52] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[23:23:58] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[23:23:59] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[23:24:06] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[23:24:11] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[23:24:15] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[23:24:19] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[23:24:19] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[23:24:26] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[23:24:33] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[23:24:34] [Client thread/INFO]: [CHAT] [World of Nations] Attention les items au sol vont être supprimés dans 100 secondes !
+[23:24:38] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[23:24:42] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[23:24:43] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[23:24:49] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[23:24:56] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[23:24:57] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[23:25:03] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[23:25:08] [Client thread/INFO]: [CHAT] You have elevated access to this area.
+[23:25:10] [Client thread/INFO]: [CHAT] You have standard access to this area.
+[23:25:19] [Client thread/INFO]: [CHAT] [World of Nations] Attention les items au sol vont être supprimés dans 55 secondes!
+[23:25:51] [Client thread/INFO]: [CHAT] *iRayeR [Soldat] dragonse2 : Lucas27400 tu peut voc 2min
+[23:26:14] [Client thread/INFO]: [CHAT] [World of Nations] 142 entitées ont été supprimées !
+[23:26:57] [Client thread/INFO]: [CHAT]  [-] studioz
+[23:28:16] [Client thread/INFO]: Stopping!
+[23:28:17] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[23:28:17] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
